@@ -43,7 +43,7 @@ def calculate(input: str) -> int:
     return helper(list(input))
 
 
-res = "(4+3)*5+9-7"
+res = "(4+3)@*5+9-7"
 print(calculate(res))
 
 
